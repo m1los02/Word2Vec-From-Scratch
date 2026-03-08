@@ -5,7 +5,7 @@ Pure-NumPy implementation of the Word2Vec Skip-Gram model with Negative Sampling
 This project was built from the ground up to handle massive text corpora efficiently without relying on heavy deep learning frameworks like PyTorch or TensorFlow. It includes custom data streaming, O(1) negative sampling, and dynamic learning rate schedules, validated against the standard Google Analogy Test Set.
 
 ## Key Features:
-- O(1) Negative Sampling: Replaced $O(\log V)$ binary searches with a pre-computed unigram lookup table
+- O(1) Negative Sampling
 - Memory-Efficient Data Streaming - uses Python generators to yield sliding-window context pairs on the fly
 - Step-Based LR Scheduling - implements both linear decay and Cosine Annealing, updated per batch rather than per epoch.
 
