@@ -7,7 +7,7 @@ This project was built from the ground up to handle massive text corpora efficie
 ## Key Features:
 - O(1) Negative Sampling
 - Memory-Efficient Data Streaming - uses Python generators to yield sliding-window context pairs on the fly
-- Step-Based LR Scheduling - implements both linear decay and Cosine Annealing, updated per batch rather than per epoch.
+- Step-Based LR Scheduling - implements both linear decay and Cosine Annealing, updated per batch rather than per epoch
 
 ## Running code
 
