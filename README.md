@@ -16,7 +16,7 @@ Dependecies:
 pip install numpy matplotlib
 ```
 
-Run the main script via the command line. You can configure the dimensions, window size, negative samples, and learning rate schedule.
+Run the main script via the command line. You can configure the dimensions, window size, negative samples, and learning rate schedule
 ``` bash
 python main.py \
     --data_path "text8" \
