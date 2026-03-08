@@ -11,7 +11,7 @@ This project was built from the ground up to handle massive text corpora efficie
 
 ## Running code
 
-Dependecies:
+Dependencies:
 ``` bash
 pip install numpy matplotlib
 ```
