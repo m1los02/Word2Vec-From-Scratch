@@ -57,7 +57,7 @@ Setup: lr = 0.01 (Linear Decay Schedule), Epochs = 10.
 | 10                   | 15.65%           | ~2470s             |
 
 Observation: 1. Introducing a linear step-based decay schedule completely fixed the degradation seen in Experiment 1, pushing accuracy to ~15.6%.
-2. Comparing K=5 against K=10 revealed massive diminishing returns. Doubling the number of negative samples increased the training time per epoch by nearly 70% (an extra 1,000 seconds), but yielded a negligible 0.03% improvement in analogy accuracy. Moving forward, K=5 is the optimal default for computational efficiency.
+2. Comparing K=5 against K=10 revealed massive diminishing returns. Doubling the number of negative samples increased the training time per epoch by nearly 70% (an extra 1000 seconds), but yielded a negligible 0.03% improvement in analogy accuracy. Moving forward, K=5 is the optimal default for computational efficiency.
 
 ## Repository Structure
 * `main.py` - CLI entry point and high-level training orchestration.
